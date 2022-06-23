@@ -1,0 +1,45 @@
+body {
+  font-family: Palatino;
+}
+
+ul#reading-list{
+  list-style: none;
+  width: 80vw;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+
+ul#reading-list li{
+  padding: 2rem;
+  padding-top: 0;
+  background-color: #ddd;
+  border: 1px dashed #333;
+  box-shadow: 1px 3px 2px 4px rgba(0,0,0,0.6);
+}
+
+ul#reading-list > li.blog-post{
+  background-color: hotpink;
+}
+
+ul#reading-list > li.book{
+  background-color: aquamarine;
+}
+
+ul#reading-list > li.article{
+  background-color: yellowgreen;
+
+}
+
+
+ul#reading-list h2{
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+}
+
+ul#reading-list p{
+
+}
